@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+  <canvas id="particles"></canvas>
+
+<header>
+  <div class="logo">PT.</div>
+ <nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#services">Services</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section id="home" class="container">
+  <div class="left">
+    <p class="tag">&lt;Hello World /&gt;</p>
+
+    <h1>
+      I'm <span class="highlight">Prabin</span><br>
+      Thagunna
+    </h1>
+
+   <p class="subtitle">
+  <span id="typing-text"></span><span class="cursor">|</span>
+</p>
+
+    <p class="desc">
+      Building scalable web applications and AI-driven solutions
+    </p>
+
+   <div class="hero-buttons">
+  <a href="#projects" class="btn primary">View Projects</a>
+
+  <a href="#contact" class="btn outline">Contact Me</a>
+
+  <!-- Resume Button -->
+  <div class="resume-container">
+   <button class="btn outline resume-btn" onclick="toggleResumeMenu()">
+  Resume
+</button>
+    <div class="resume-dropdown" id="resumeMenu">
+      <a href="resume.pdf" target="_blank">👁 View </a>
+      <a href="resume.pdf" download>⬇ Download </a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <div class="icons">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+    
+<div class="scroll-down">
+  <a href="#about">↓</a>
+</div>
+
+
+  <div class="right">
+    <div class="circle">
+      <img src="praabin.jpeg" alt="profile">
+    </div>
+  </div>           
+
+ 
+  
+</section>
+<section id="about" class="about">
+  <div class="about-header">
+    <h2>About <span>Me</span></h2>
+    <p>Get to know me better</p>
+  </div>
+
+  <div class="about-container">
+    
+    <!-- LEFT SIDE -->
+    <div class="about-left">
+      <p>
+       I’m Prabin Thagunna, a Python Full-Stack Developer with a strong interest in building scalable web applications and AI-driven solutions. I specialize in developing end-to-end applications using technologies like Python, Flask, React, and modern cloud platforms.
+
+I enjoy solving real-world problems by transforming ideas into functional and efficient digital solutions, with a focus on clean design, performance, and user experience.
+
+      </p>
+
+      <div class="about-info">
+        <p>📍 Bangalore, India</p>
+        <p>💻 Full-Stack Developer & AI Enthusiast</p>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE (CARD) -->
+    <div class="about-card">
+      <div class="card-header">
+        🎓 <span>Education</span>
+      </div>
+
+     <div class="card-content">
+  <h3>Bachelor of Engineering</h3>
+  <p>Computer Science</p>
+  <p>AMC Engineering College</p>
+  <p>CGPA: 7.9</p>
+  <span class="badge">Graduating 2026</span>
+</div>
+
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="skills" class="skills">
+  <div class="skills-header">
+    <h2>My <span>Skills</span></h2>
+    <p>Technologies I use to build projects</p>
+  </div>
+
+  <div class="skills-container">
+
+    <!-- Frontend -->
+    <div class="skills-card">
+      <h3>Frontend</h3>
+      <div class="tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+      </div>
+    </div>
+
+    <!-- Backend -->
+    <div class="skills-card">
+      <h3>Backend</h3>
+      <div class="tags">
+        <span>Python</span>
+        <span>Flask</span>
+        <span>Django</span>
+        <span>SQL</span>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <div class="skills-card">
+      <h3>Tools & Platform</h3>
+      <div class="tags">
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>OpenCV</span>
+        <span>Vs code</span>
+        <span>AWS</span>
+        <span>Fire-Base</span>
+        
+
+
+      
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="projects" class="projects">
+  <div class="projects-header">
+    <h2>My <span>Projects</span></h2>
+    <p>Things I’ve built</p>
+  </div>
+
+  <!-- FEATURED PROJECT -->
+  <div class="featured-card">
+    <p class="featured-tag">⭐ Featured Project</p>
+
+    <h3>Intelligent Traffic Violation Detection & Criminal Tracking</h3>
+
+   <p class="desc">
+  AI-based traffic violation detection system that uses YOLO and computer vision to identify violations in real time. 
+  It includes a validation layer to reduce false positives and uses ALPR to extract vehicle numbers, which are matched 
+  with a criminal database.
+</p>
+    <div class="tags">
+      <span>Python</span>
+      <span>YOLO V5</span>
+      <span>OpenCV</span>
+      <span>TensorFlow</span>
+      <span>AWS</span>
+      <span>ALPR</span>
+
+      
+    </div>
+
+    <div class="links">
+      <a href="#">💻 Code</a>
+      <a href="#">🔗 Demo</a>
+    </div>
+  </div>
+
+  <!-- OTHER PROJECTS -->
+  <div class="projects-grid">
+
+   <div class="project-card">
+  <h3>Food Ordering Website</h3>
+  <p>
+    A full-stack food ordering platform with a responsive and user-friendly interface, allowing users to browse menus, 
+    manage cart items, and place orders efficiently.
+  </p>
+      <div class="tags">
+        <span>React</span>
+        <span>Flask</span>
+        <span>MySQL</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+      </div>
+
+      <div class="links">
+        <a href="#">💻 Code</a>
+        <a href="#">🔗 Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+  <h3>Smart Cloud Document Management</h3>
+  <p>
+    Developed a cloud-based document management system that enables automated PDF generation with 
+    secure role-based access control, improving document handling efficiency and data security.
+  
+  <p>
+      </p>
+
+      <div class="tags">
+        <span>MongoDB</span>
+        <span>HTML</span>
+        <span>Firebase</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+
+      <div class="links">
+        <a href="#">💻 Code</a>
+        <a href="#">🔗 Demo</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="services" class="services">
+  <div class="services-header">
+    <h2>My <span>Services</span></h2>
+    <p>What I can do for you</p>
+  </div>
+
+  <div class="services-container">
+
+    <!-- Card 1 -->
+    <div class="service-card">
+      <div class="icon">🌐</div>
+      <h3>Full-Stack Web Development</h3>
+      <p>
+        End-to-end development with python, HTML, CSS & JavaScript,React, Flask 
+        Scalable architecture with clean, maintainable code.
+      </p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="service-card">
+      <div class="icon">📱</div>
+      <h3>Responsive Design</h3>
+      <p>
+        Mobile-first, fully responsive interfaces that look great on every
+        device and screen size.
+      </p>
+    </div>
+    
+
+    <!-- Card 3 -->
+    <div class="service-card">
+      <div class="icon">📦</div>
+      <h3>User-Friendly UI</h3>
+      <p>
+        Intuitive and accessible user interfaces with modern design
+        principles and smooth interactions.
+      </p>
+    </div>
+
+    <!-- NEW Card 4 -->
+    <div class="service-card">
+      <div class="icon">⚙️</div>
+      <h3>Backend Development</h3>
+      <p>
+        Building secure and scalable backend systems using Python, Flask,
+        and database integration.
+      </p>
+    </div>
+
+    
+
+</section>
+<section id="experience" class="experience">
+  <div class="exp-header">
+    <h2>My <span>Experience</span></h2>
+    <p>My professional journey</p>
+  </div>
+
+  <div class="timeline">
+
+   <!-- ITEM 1 -->
+<div class="timeline-item">
+  <div class="timeline-icon">🎁</div>
+
+  <div class="timeline-content">
+    <div class="top">
+      <h3>Python Intern</h3>
+      <span class="badge">1 Month</span>
+    </div>
+
+    <p class="company">InternPe</p>
+
+    <p>
+      Developed multiple web-based applications using Python, HTML, CSS, and JavaScript, 
+      gaining hands-on experience in full-stack development and real-world project implementation.
+    </p>
+  </div>
+</div>
+       
+
+
+  <!-- ITEM 2 -->
+<div class="timeline-item">
+  <div class="timeline-icon">🚀</div>
+
+  <div class="timeline-content">
+    <div class="top">
+      <h3>Python Full-Stack with Gen AI Intern</h3>
+      <span class="badge">Present</span>
+    </div>
+
+    <p class="company">Dhee Coding Lab</p>
+
+    <p>
+      Currently working on full-stack development using Python, HTML, CSS, and JavaScript, 
+      while exploring Generative AI concepts to build intelligent and real-world applications.
+    </p>
+  </div>
+</div>
+
+
+
+
+   <!-- ITEM 3 -->
+<div class="timeline-item">
+  <div class="timeline-icon">⚙️</div>
+
+  <div class="timeline-content">
+    <div class="top">
+      <h3>AI-Based Systems</h3>
+      <span class="badge">2024 - Present</span>
+    </div>
+
+    <p class="company">Project Experience</p>
+
+    <p>
+      Built intelligent traffic violation detection and criminal tracking systems using computer vision 
+      and deep learning techniques to improve accuracy and reduce manual effort.
+    </p>
+
+    <p>
+      <strong>Tech Stack:</strong> Python, OpenCV, YOLOv5, AWS
+    </p>
+  </div>
+</div>
+    
+
+   
+
+
+
+
+</section>
+<section id="contact" class="contact">
+  <div class="contact-header">
+    <h2>Contact <span>Me</span></h2>
+    <p>Let’s work together</p>
+  </div>
+
+  <div class="contact-container">
+
+    <!-- LEFT SIDE -->
+    <div class="contact-left">
+
+      <div class="contact-item">
+        <div class="icon-box">
+          <span>✉️</span>
+        </div>
+        <div class="text">
+          <p class="label">Email</p>
+          <p class="value">thagunnaprabin@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="icon-box">
+          <span>📞</span>
+        </div>
+        <div class="text">
+          <p class="label">Phone</p>
+          <p class="value">+91 9972325043</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="icon-box">
+          <span>📍</span>
+        </div>
+        <div class="text">
+          <p class="label">Location</p>
+          <p class="value">Bangalore, India</p>
+        </div>
+      </div>
+
+      <!-- SOCIAL -->
+     <div class="social">
+  <a href="https://github.com/Prabin566" target="_blank" class="social-box">
+    <i class="fab fa-github"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/prabin-thagunna-80225a2a3?utm_source=share_via&utm_content=profile&utm_medium=member_android" 
+     target="_blank" class="social-box">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="contact-card">
+      <form id="contact-form">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">✈ Send Message</button>
+</form>
+    </div>
+
+  </div>
+</section>
+<script>
+  // Buttons
+  document.querySelector(".primary").addEventListener("click", function () {
+    document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+  });
+
+  document.querySelector(".outline").addEventListener("click", function () {
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+  });
+
+  // Navbar smooth scroll
+  document.querySelectorAll("nav a").forEach(link => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute("href"));
+      target.scrollIntoView({ behavior: "smooth" });
+    });
+  });
+</script>
+<script>
+  const roles = [
+    "Python Full-Stack Developer",
+    "AI Engineer"
+  ];
+
+  let index = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+
+  function typeEffect() {
+    const textElement = document.getElementById("typing-text");
+    const currentRole = roles[index];
+
+    if (isDeleting) {
+      textElement.textContent = currentRole.substring(0, charIndex--);
+    } else {
+      textElement.textContent = currentRole.substring(0, charIndex++);
+    }
+
+    let speed = isDeleting ? 40 : 80;
+
+    if (!isDeleting && charIndex === currentRole.length) {
+      speed = 1200;
+      isDeleting = true;
+    } else if (isDeleting && charIndex === 0) {
+      isDeleting = false;
+      index = (index + 1) % roles.length;
+      speed = 300;
+    }
+
+    setTimeout(typeEffect, speed);
+  }
+
+  typeEffect();
+</script>
+<script>
+const canvas = document.getElementById("particles");
+const ctx = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let particles = [];
+
+for (let i = 0; i < 80; i++) {
+  particles.push({
+    x: Math.random() * canvas.width,
+    y: Math.random() * canvas.height,
+    radius: Math.random() * 2,
+    dx: (Math.random() - 0.5),
+    dy: (Math.random() - 0.5)
+  });
+}
+
+function animateParticles() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  particles.forEach(p => {
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+    ctx.fillStyle = "#00f5ff";
+    ctx.fill();
+
+    p.x += p.dx;
+    p.y += p.dy;
+
+    if (p.x < 0 || p.x > canvas.width) p.dx *= -1;
+    if (p.y < 0 || p.y > canvas.height) p.dy *= -1;
+  });
+
+  requestAnimationFrame(animateParticles);
+}
+
+animateParticles();
+</script>
+<script>
+const canvas = document.getElementById("particles");
+const ctx = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let particles = [];
+
+for (let i = 0; i < 80; i++) {
+  particles.push({
+    x: Math.random() * canvas.width,
+    y: Math.random() * canvas.height,
+    radius: Math.random() * 2,
+    dx: (Math.random() - 0.5),
+    dy: (Math.random() - 0.5)
+  });
+}
+
+function animateParticles() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  particles.forEach(p => {
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+    ctx.fillStyle = "#00f5ff";
+    ctx.fill();
+
+    p.x += p.dx;
+    p.y += p.dy;
+
+    if (p.x < 0 || p.x > canvas.width) p.dx *= -1;
+    if (p.y < 0 || p.y > canvas.height) p.dy *= -1;
+  });
+
+  requestAnimationFrame(animateParticles);
+}
+
+animateParticles();
+</script>
+<script>
+document.getElementById("contact-form").addEventListener("submit", async function(e) {
+  e.preventDefault();
+
+  const formData = new FormData(this);
+
+  const response = await fetch("http://127.0.0.1:5000/contact", {
+    method: "POST",
+    body: formData
+  });
+
+  const result = await response.json();
+  alert(result.message);
+});
+</script>
+<script>
+(function(){
+  emailjs.init("kOh50ksmxcjXZWb3P");
+})();
+</script>
+<script>
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const button = this.querySelector("button");
+  button.disabled = true;
+
+  emailjs.sendForm("service_g11i98l", "template_5ink8w8", this)
+    .then(() => {
+      alert("✅ Message Sent Successfully!");
+      this.reset();
+    })
+    .catch((error) => {
+      alert("❌ Failed to send message");
+      console.log(error);
+    })
+    .finally(() => {
+      button.disabled = false;
+    });
+});
+</script>
+<script>
+function toggleResumeMenu() {
+  document.getElementById("resumeMenu").classList.toggle("show");
+}
+
+window.addEventListener("click", function(e) {
+  if (!e.target.closest(".resume-container")) {
+    document.getElementById("resumeMenu").classList.remove("show");
+  }
+});
+</script>
+<a href="resume.pdf" download class="floating-resume">
+  <i class="fas fa-download"></i>
+</a>
+</body>
+
+
+
+
+</html>
