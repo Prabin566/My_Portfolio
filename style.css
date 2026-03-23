@@ -1022,6 +1022,179 @@ html {
 
 
 
+/* =========================
+   GLOBAL RESPONSIVE FIXES
+========================= */
+
+/* Reduce padding on smaller screens */
+@media (max-width: 1200px) {
+  header,
+  .container,
+  .skills,
+  .projects,
+  .services,
+  .experience,
+  .contact {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* =========================
+   TABLET VIEW (<= 900px)
+========================= */
+@media (max-width: 900px) {
+
+  /* NAVBAR */
+  header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 8px 10px;
+    font-size: 13px;
+  }
+
+  /* HERO SECTION */
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* PROFILE IMAGE */
+  .circle {
+    width: 220px;
+    height: 220px;
+  }
+
+  .circle img {
+    width: 190px;
+    height: 190px;
+  }
+
+  /* ABOUT */
+  .about {
+    padding: 80px 20px;
+  }
+
+  /* PROJECTS */
+  .project-card {
+    width: 100%;
+  }
+
+  /* CONTACT */
+  .contact-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .contact-card {
+    width: 100%;
+  }
+}
+
+/* =========================
+   MOBILE VIEW (<= 600px)
+========================= */
+@media (max-width: 600px) {
+
+  /* NAV LINKS */
+  nav {
+    gap: 5px;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  /* HERO TEXT */
+  h1 {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .desc {
+    font-size: 13px;
+  }
+
+  /* BUTTONS STACK */
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* IMAGE */
+  .circle {
+    width: 180px;
+    height: 180px;
+  }
+
+  .circle img {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* SERVICES */
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* TIMELINE FIX */
+  .timeline {
+    padding-left: 10px;
+  }
+
+  .timeline::before {
+    left: 8px;
+  }
+
+  /* CONTACT TEXT */
+  .contact-header h2 {
+    font-size: 28px;
+  }
+
+  .contact-card {
+    padding: 25px;
+  }
+}
+
+
+
+
 
 
 
